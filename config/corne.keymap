@@ -54,10 +54,10 @@
             //                    | GUI | ALT|     |   |     | SPC | SHFT|
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5    &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp BSPC
-&kp TAB    &kp A   &kp S   &trans    &trans    &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp ENTER
-&kp LCTRL  &kp Z   &kp X   &trans    &trans    &trans    &trans    &trans     &trans     &trans     &trans  &trans
-                           &kp LGUI  &kp LALT  &trans    &trans    &kp SPACE  &kp RSHFT
+&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4    &kp N5    &kp N6    &kp N7     &kp N8             &kp N9     &kp N0  &kp DELETE
+&kp TAB         &trans  &trans  &trans    &trans    &trans    &kp LEFT  &kp DOWN   &kp UP             &kp RIGHT  &trans  &kp ENTER
+&kp LEFT_SHIFT  &trans  &trans  &trans    &trans    &trans    &trans    &trans     &trans             &trans     &trans  &trans
+                                &kp LGUI  &kp LALT  &trans    &trans    &kp SPACE  &kp RIGHT_CONTROL
             >;
         };
 
@@ -76,7 +76,7 @@
             >;
         };
 
-        layer_3 {
+        gaming {
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E      &kp R      &kp N1     &kp T   &kp Y   &kp U   &kp I      &kp O    &kp P
 &kp LALT   &kp A  &kp S  &kp D      &kp F      &kp N2     &kp G   &kp H   &kp J   &kp K      &kp L    &kp SQT
